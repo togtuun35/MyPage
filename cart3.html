@@ -174,55 +174,42 @@
     </header>
     <main>
         <section>
-            <h5>ТӨЛБӨРИЙН ХЭЛБЭР</h5>
-            <article class="row">
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="method_id" id="radio1" value="1" required="required" checked>
-                        QPAY -р төлбөр төлөх
-                    </label>
-                    <label>
-                        <input type="radio" name="method_id" id="radio2" value="2" required="required">
-                        Картаар тооцоо хийх 
-                    </label>
-                    <label>
-                        <input type="radio" name="method_id" id="radio3" value="3" required="required">
-                        Дансаар шилжүүлэх
-                    </label>
-                </div>
-                <div class="col-sm-12">
-                    <div id="bank_online" class="form-group no-bottom-margin">
-                        <select name="bank" id="selectbank" class="filtercln">
-                            <option value="golomt">Голомт банк</option>
-                            <option value="golomt">Хас банк</option>
-                            <option value="golomt">Худалдаа хөгжлийн банк</option>
+            <section>
+                <article>
+                    <h5>ХҮРГЭЛТИЙН МЭДЭЭЛЭЛ</h5>
+                    <div>
+                        <input type="text" name="receiver_name" title="Хүлээн авагчийн нэр" placeholder="Хүлээн авагчийн нэр" value>
+                    </div>
+                    <div>
+                        <input type="text" name="receiver_reg" title="Хүлээн авагчийн регистер" placeholder="Хүлээн авагчийн регистер" value>
+                    </div>
+                    <div>
+                        <select name="city location">
+                            <option value="1">Улаанбаатар</option>
+                            <option value="2">Орон нутаг</option>
                         </select>
                     </div>
-                </div>
-                <div class="col-sm-12">
-                        <div id="qpay" class="form-group no-bottom-margin">
-                            <img id="invoiceQR" style="width: 250px;" src="img/qpay.jpg" />
-                        </div>
-                </div>
-                <div class="col-sm-12">
-                    <div id="bank_transfer" class="form-group no-bottom-margin">
-                        <div class="alert alert-info"><span style="color:red;">Анхаар!! </span>гүйлгээний утга дээр захиалгын дугаар бичнэ үү: <strong>166591</strong></div>
-                        <table class="table">
-                            <tr>
-                                <th>Банк</th>
-                                <th>Дансны дугаар</th>
-                                <th>Дансны нэр</th>
-                            </tr>
-                           <tr>
-            					<td>ХААН БАНК</td>
-            					<td>5163343616</td>
-            					<td>Азхур ХХК</td>
-            				</tr>
-                        </table>
+                    <div>
+                        <select name="duureg songoh">
+                            <option value="1">Баянгол</option>
+                            <option value="2">Баянзүрх</option>
+                            <option value="3">Сонгино хайрхан</option>
+                            <option value="4">Сүхбаатар</option>
+                            <option value="5">Хан-Уул</option>
+                            <option value="6">Чингэлтэйx</option>
+                        </select>
                     </div>
-                </div>
-            </article>
-        </section>
+                    <div>
+                        <input type="text" name="" placeholder="Байр, Гудамж, Тоот" value>
+                    </div>
+                    <div>
+                        <input type="text" name="" value>
+                    </div>
+                    <div>
+                        <textarea name="reciever_comment" placeholder="Нэмэлт мэдээлэл ..." maxlength="255"></textarea>
+                    </div>
+                </article>
+            </section>
             <section>
                 <table>
                         <tr><h4>Төлбөрийн мэдээлэл</h4></tr>

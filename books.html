@@ -163,9 +163,37 @@
         </section>
     </header>
     <main>
-        <nav></nav>
+        <nav>
+            <select name="language" id="">
+                <option value="">- Үнэ -</option>
+                <option value>- Хэл -</option>
+                <option value="mn">Монгол</option>
+                <option value="en">Англи</option>
+                <option value="ru">Орос</option>
+            </select>
+            <select name="price" id="">
+                <option  value="5000">0 - 4,999 ₮</option>
+				<option  value="10000">5000 ₮ - 9,999 ₮</option>
+				<option  value="20000">10,000 ₮ - 19,999 ₮</option>
+				<option  value="40000">20,000 ₮ - 39,999 ₮</option>
+				<option  value="60000">40,000 ₮ - 59,999 ₮</option>
+				<option  value="60001">60,000 ₮ - илүү</option>
+            </select>
+            <div>
+                <label for="checkbox">Шинэ</label>
+                <label for="checkbox">Шилдэг</label>
+                <label for="checkbox">Онцлох</label>
+            </div>
+            <select name="sort" id="">
+                <option value="">- Эрэмбэ -</option>
+                <option  value="asc">А - Я</option>
+				<option  value="desc">Я - А</option>
+				<option  value="prasc">Үнэ - өсөхөөр</option>
+				<option  value="prdesc">Үнэ - буурахаар</option>
+            </select>
+        </nav>
         <aside>
-            <h3></h3>
+            <h3>АНГИЛАЛ</h3>
             <ul>
                 <li><a href="">Түүх, ёс заншил (269)</a></li>
                 <li><a href="">Нийгэм, улс төр, хууль (112)</a></li>

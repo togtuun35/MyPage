@@ -1,4 +1,15 @@
 .header-header{
-    text-align: right;
-    font-size: 5px;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.header-header a{
+    float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }

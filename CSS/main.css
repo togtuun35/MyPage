@@ -1,15 +1,46 @@
 .header-header{
     overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0;
+    background-color: rgb(56, 56, 56);
+
 }
 
 .header-header a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.header-header a.header-left{
     float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.header-header ul{
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.header-header ul.header-lang{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.header-header ul.li{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.header-logo img{
+    text-align: center;
+    display: block;
 }

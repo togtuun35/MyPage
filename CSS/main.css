@@ -1,3 +1,15 @@
+html, body, #main {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    background:-webkit-linear-gradient(-45deg,  #a9e4f7 0%,#0fb4e7 100%);
+  }
+  #main{
+   
+    overflow: auto;
+    box-sizing: border-box;
+    padding-top:2rem;
+  }
 .header-header{
     overflow: hidden;
     background-color: rgb(56, 56, 56);
@@ -41,6 +53,44 @@
 }
 
 .header-logo img{
+    position: relative;
+    float: center;
+    overflow: hidden;
+}
+.header-dropdown{
+    background-color:#222;
+  border:1px solid grey;
+  z-index: 1;
+ position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.header-dropdown ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.header-dropdown li{
+    position: relative;
+    display: inline-block;
+}
+.header-dropdown a{
+    display: block;
+    color: black;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-dropdown li.categories-list{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
     display: block;
 }

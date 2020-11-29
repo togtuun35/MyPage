@@ -3,19 +3,16 @@ html, body, #main {
     width: 100%;
     height: 100%;
     background:-webkit-linear-gradient(-45deg,  #a9e4f7 0%,#0fb4e7 100%);
-  }
-  #main{
-   
+}
+#main{
     overflow: auto;
     box-sizing: border-box;
     padding-top:2rem;
-  }
+}
 .header-header{
     overflow: hidden;
     background-color: rgb(56, 56, 56);
-
 }
-
 .header-header a{
     float: right;
     display: block;
@@ -24,7 +21,6 @@ html, body, #main {
     padding: 10px 10px;
     text-decoration: none;
 }
-
 .header-header a.header-left{
     float: left;
     display: block;
@@ -37,21 +33,18 @@ html, body, #main {
     position: relative;
     display: inline-block;
 }
-
 .header-header ul.header-lang{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     z-index: 1;
 }
-
 .header-header ul.li{
     color: white;
     padding: 10px 10px;
     text-decoration: none;
     display: block;
 }
-
 .header-logo img{
     position: relative;
     float: center;
@@ -75,7 +68,6 @@ html, body, #main {
     position: relative;
     display: inline-block;
 }
-
 .header-dropdown li{
     position: relative;
     display: inline-block;
@@ -87,7 +79,6 @@ html, body, #main {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 .header-dropdown li.categories-list{
     color: white;
     padding: 10px 10px;
